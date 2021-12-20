@@ -1,0 +1,171 @@
+/* basic style */
+
+body{
+    background-color: beige;
+}
+
+.main{
+    width: 80%;
+    margin: auto;
+}
+
+/* top style */
+
+.{
+    width: 100%;
+    height: auto;
+}
+
+nav{
+    background-color: rgb(92, 160, 92);
+    width: 100%;
+    height: auto;
+}
+
+.nav > ul{
+    list-style-type: none;
+}
+
+ul > li{
+    display: inline-block;
+    word-spacing: 20px;
+    font-size: 20px;
+    padding: 17px;
+}
+
+li > a{
+    text-decoration: none;
+    color: white;
+}
+
+/* middle style */
+
+h2{
+    font-size: 25px;
+    margin: 5px 0;
+    text-transform: capitalize;
+}
+
+.middle > p{
+    font-size: 1.2em;
+    line-height: 27px;
+}
+
+.middle > p > img{
+    width: 100%;
+    float: center;
+    height: auto;
+}
+
+/* bottom sytle */
+
+.bottom{
+    background-color: rgb(92, 160, 92);
+    margin-top: 30px;
+    height: 10px;
+    padding: 35px;
+    font-size: 1.2em;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.bottom > a{
+    color: white;
+    text-decoration: none;
+}
+
+/* boy style */
+
+nav{
+    background-color: rgb(92, 160, 92);
+    width: 100%;
+    height: auto;
+}
+
+.nav > ul{
+    list-style-type: none;
+}
+
+ul > li{
+    display: inline-block;
+    word-spacing: 20px;
+    font-size: 20px;
+    padding: 17px;
+}
+
+li > a{
+    text-decoration: none;
+    color: white;
+}
+
+/* table style */
+
+table{
+    background-color: rgb(110, 189, 110);
+    width: 100%;
+    height: auto;
+}
+
+ table, td{
+     border: 1px solid black;
+     /* cell-spacing */
+     border-spacing: 5px;
+ }
+
+ td{
+     /* cell padding */
+     padding: 5px;
+ }
+
+ table, th{
+     border: 1px solid black;
+     /* cell-spacing */
+     border-spacing: 5px;
+ }
+
+ /* child style */
+
+ .child{
+    background-color: rgb(92, 160, 92);
+    margin-top: 30px;
+    height: 10px;
+    padding: 35px;
+    font-size: 1.2em;
+    text-align: center;
+    text-transform: capitalize;
+ }
+
+ .child > a{
+    color: white;
+    text-decoration: none;
+ }
+
+ /* form style */
+
+ .woman{
+    width: 100%;
+    background-color: rgb(204, 240, 204);
+    height: auto; 
+    font-size: 1,2em; 
+    text-transform: capitalize;
+    text-align: center;
+ }
+
+ /* children style */
+
+ .children{
+    background-color: rgb(92, 160, 92);
+    margin-top: 30px;
+    height: 10px;
+    padding: 35px;
+    font-size: 1.2em;
+    text-align: center;
+    text-transform: capitalize;
+ }
+
+ .children > a{
+    color: white;
+    text-decoration: none;
+ }
+
+  
