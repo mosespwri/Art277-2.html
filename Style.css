@@ -1,0 +1,156 @@
+/* Basic style */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.main{
+    width: 100%;
+    margin: auto;
+}
+
+/* banner style */
+.banner{
+    width: 100%;
+    height: auto;
+}
+
+ h1{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-weight: 400px;
+    color: rgb(2, 2, 10);
+}
+
+nav{
+    background-color: rgb(49, 49, 85);
+    width: 100% ;
+    height: auto ;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav  li{
+    display: inline-block;
+    word-spacing: 20px;
+    font-size: 30px;
+    padding: 30px;
+}
+
+li>a{
+    text-decoration: none;
+    color: white;
+}
+
+/* banner image */
+
+.banner img{
+    width: 100%;
+    height: 500px;
+}
+
+/* content style */
+h2{
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.content > p{
+    font-size: 1.2em;
+    line-height: 27px;
+}
+
+.content > p > img{
+    width: 15%;
+    float: right;
+    height: 150px;
+}
+
+/* footer style */
+
+.footer{
+    background-color:rgb(49, 49, 85);
+    margin-top: 20px;
+    height: 5px;
+    padding: 30px;
+    font-size: 1.2em;
+    color: white; 
+}
+
+/* pagetittle */
+
+.pagetittle{
+    background-color: rgb(9,  23, 49);
+    height: 35;
+    padding: 10px;
+    margin-top: 10px 0;
+    color: white;
+    text-align: center;
+}
+
+ h2{
+    font-size: 35px;
+    font-weight: 100px;
+    text-align: center;
+}
+
+.pagetittle > p{
+    font-size: 1.2em;
+    height: 25px;
+    text-align: right;
+}
+
+.pagetittle p img{
+    width: 150px;
+    float: right;
+    height: 300px;
+}
+
+/* otis style */
+
+.otis{
+    background-color:rgb(49, 49, 85);margin-top: 20px;
+    height: 5px;
+    padding: 30px;
+    font-size: 1.2em;
+    color: white; 
+}
+
+
+/* pagehead */
+.page{
+    background-color: rgb(9,  23, 49);
+    height: 35;
+    padding: 10px;
+    margin-top: 10px 0;
+    color: white;
+    text-align: center; 
+
+}
+
+h3{
+    font-size: 35px;
+    font-weight: 100px;
+    text-align: center;
+    text-transform: capitalize;  
+}
+
+/* cat style */
+.cat{
+    background-color:rgb(49, 49, 85);
+    margin-top: 20px;
+    height: 5px;
+    padding: 30px;
+    font-size: 1.2em;
+    color: white;  
+}
+
+
+
