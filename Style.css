@@ -1,156 +1,171 @@
-/* Basic style */
-*{
-    margin: 0;
-    padding: 0;
-}
+/* basic style */
 
 body{
-    background-color: antiquewhite;
+    background-color: beige;
 }
 
 .main{
-    width: 100%;
+    width: 80%;
     margin: auto;
 }
 
-/* banner style */
-.banner{
+/* top style */
+
+.{
     width: 100%;
     height: auto;
 }
 
- h1{
-    font-size: 50px;
-    font-family: 'Times New Roman', Times, serif;
-    text-transform: uppercase;
-    font-weight: 400px;
-    color: rgb(2, 2, 10);
-}
-
 nav{
-    background-color: rgb(49, 49, 85);
-    width: 100% ;
-    height: auto ;
+    background-color: rgb(92, 160, 92);
+    width: 100%;
+    height: auto;
 }
 
-nav ul{
+.nav > ul{
     list-style-type: none;
 }
 
-nav  li{
+ul > li{
     display: inline-block;
     word-spacing: 20px;
-    font-size: 30px;
-    padding: 30px;
+    font-size: 20px;
+    padding: 17px;
 }
 
-li>a{
+li > a{
     text-decoration: none;
     color: white;
 }
 
-/* banner image */
+/* middle style */
 
-.banner img{
-    width: 100%;
-    height: 500px;
-}
-
-/* content style */
 h2{
-    font-size: 30px;
-    margin: 10px 0;
+    font-size: 25px;
+    margin: 5px 0;
+    text-transform: capitalize;
 }
 
-.content > p{
+.middle > p{
     font-size: 1.2em;
     line-height: 27px;
 }
 
-.content > p > img{
-    width: 15%;
-    float: right;
-    height: 150px;
+.middle > p > img{
+    width: 100%;
+    float: center;
+    height: auto;
 }
 
-/* footer style */
+/* bottom sytle */
 
-.footer{
-    background-color:rgb(49, 49, 85);
-    margin-top: 20px;
-    height: 5px;
-    padding: 30px;
+.bottom{
+    background-color: rgb(92, 160, 92);
+    margin-top: 30px;
+    height: 10px;
+    padding: 35px;
     font-size: 1.2em;
-    color: white; 
+    text-align: center;
+    text-transform: capitalize;
 }
 
-/* pagetittle */
-
-.pagetittle{
-    background-color: rgb(9,  23, 49);
-    height: 35;
-    padding: 10px;
-    margin-top: 10px 0;
+.bottom > a{
     color: white;
-    text-align: center;
+    text-decoration: none;
 }
 
- h2{
-    font-size: 35px;
-    font-weight: 100px;
-    text-align: center;
+/* boy style */
+
+nav{
+    background-color: rgb(92, 160, 92);
+    width: 100%;
+    height: auto;
 }
 
-.pagetittle > p{
-    font-size: 1.2em;
-    height: 25px;
-    text-align: right;
+.nav > ul{
+    list-style-type: none;
 }
 
-.pagetittle p img{
-    width: 150px;
-    float: right;
-    height: 300px;
+ul > li{
+    display: inline-block;
+    word-spacing: 20px;
+    font-size: 20px;
+    padding: 17px;
 }
 
-/* otis style */
-
-.otis{
-    background-color:rgb(49, 49, 85);margin-top: 20px;
-    height: 5px;
-    padding: 30px;
-    font-size: 1.2em;
-    color: white; 
-}
-
-
-/* pagehead */
-.page{
-    background-color: rgb(9,  23, 49);
-    height: 35;
-    padding: 10px;
-    margin-top: 10px 0;
+li > a{
+    text-decoration: none;
     color: white;
-    text-align: center; 
-
 }
 
-h3{
-    font-size: 35px;
-    font-weight: 100px;
-    text-align: center;
-    text-transform: capitalize;  
+/* table style */
+
+table{
+    background-color: rgb(110, 189, 110);
+    width: 100%;
+    height: auto;
 }
 
-/* cat style */
-.cat{
-    background-color:rgb(49, 49, 85);
-    margin-top: 20px;
-    height: 5px;
-    padding: 30px;
+ table, td{
+     border: 1px solid black;
+     /* cell-spacing */
+     border-spacing: 5px;
+ }
+
+ td{
+     /* cell padding */
+     padding: 5px;
+ }
+
+ table, th{
+     border: 1px solid black;
+     /* cell-spacing */
+     border-spacing: 5px;
+ }
+
+ /* child style */
+
+ .child{
+    background-color: rgb(92, 160, 92);
+    margin-top: 30px;
+    height: 10px;
+    padding: 35px;
     font-size: 1.2em;
-    color: white;  
-}
+    text-align: center;
+    text-transform: capitalize;
+ }
 
+ .child > a{
+    color: white;
+    text-decoration: none;
+ }
 
+ /* form style */
 
+ .woman{
+    width: 100%;
+    background-color: rgb(204, 240, 204);
+    height: auto; 
+    font-size: 1,2em; 
+    text-transform: capitalize;
+    text-align: center;
+ }
+
+ /* children style */
+
+ .children{
+    background-color: rgb(92, 160, 92);
+    margin-top: 30px;
+    height: 10px;
+    padding: 35px;
+    font-size: 1.2em;
+    text-align: center;
+    text-transform: capitalize;
+ }
+
+ .children > a{
+    color: white;
+    text-decoration: none;
+ }
+
+  
